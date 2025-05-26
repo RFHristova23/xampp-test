@@ -1,0 +1,55 @@
+[Fri May 23 13:56:18.191107 2025] [ssl:warn] [pid 7804:tid 448] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 23 13:56:18.299815 2025] [ssl:warn] [pid 7804:tid 448] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 23 13:56:18.431464 2025] [mpm_winnt:notice] [pid 7804:tid 448] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Fri May 23 13:56:18.431464 2025] [mpm_winnt:notice] [pid 7804:tid 448] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Fri May 23 13:56:18.431464 2025] [core:notice] [pid 7804:tid 448] AH00094: Command line: 'C:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri May 23 13:56:18.441439 2025] [mpm_winnt:notice] [pid 7804:tid 448] AH00418: Parent: Created child process 284
+[Fri May 23 13:56:19.162507 2025] [ssl:warn] [pid 284:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 23 13:56:19.197413 2025] [ssl:warn] [pid 284:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 23 13:56:19.245286 2025] [mpm_winnt:notice] [pid 284:tid 436] AH00354: Child: Starting 150 worker threads.
+[Fri May 23 14:04:12.498930 2025] [ssl:warn] [pid 980:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 23 14:04:12.541801 2025] [ssl:warn] [pid 980:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 23 14:04:12.589676 2025] [mpm_winnt:notice] [pid 980:tid 468] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Fri May 23 14:04:12.589676 2025] [mpm_winnt:notice] [pid 980:tid 468] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Fri May 23 14:04:12.589676 2025] [core:notice] [pid 980:tid 468] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri May 23 14:04:12.593664 2025] [mpm_winnt:notice] [pid 980:tid 468] AH00418: Parent: Created child process 11872
+[Fri May 23 14:04:13.160147 2025] [ssl:warn] [pid 11872:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 23 14:04:13.201039 2025] [ssl:warn] [pid 11872:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 23 14:04:13.246915 2025] [mpm_winnt:notice] [pid 11872:tid 456] AH00354: Child: Starting 150 worker threads.
+[Fri May 23 15:57:02.008991 2025] [php:error] [pid 11872:tid 1880] [client ::1:60239] PHP Fatal error:  Uncaught Error: Call to undefined function showErrors() in C:\\xampp\\htdocs\\Test Register\\index.php:52\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\Test Register\\index.php on line 52
+[Fri May 23 15:58:35.986791 2025] [php:error] [pid 11872:tid 1880] [client ::1:60245] PHP Parse error:  syntax error, unexpected token ":" in C:\\xampp\\htdocs\\Test Register\\config.php on line 5, referer: http://localhost/Test%20Register/
+[Fri May 23 15:58:57.533390 2025] [php:warn] [pid 11872:tid 1884] [client ::1:60247] PHP Warning:  Undefined variable $password in C:\\xampp\\htdocs\\Test Register\\config.php on line 8, referer: http://localhost/Test%20Register/
+[Fri May 23 15:58:57.599230 2025] [php:error] [pid 11872:tid 1884] [client ::1:60247] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\\xampp\\htdocs\\Test Register\\loging_register.php:17\nStack trace:\n#0 C:\\xampp\\htdocs\\Test Register\\loging_register.php(17): mysqli->query('INSERT INTO use...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\Test Register\\loging_register.php on line 17, referer: http://localhost/Test%20Register/
+[Fri May 23 15:59:13.921098 2025] [php:warn] [pid 11872:tid 1880] [client ::1:60248] PHP Warning:  Undefined variable $password in C:\\xampp\\htdocs\\Test Register\\config.php on line 8, referer: http://localhost/Test%20Register/
+[Fri May 23 15:59:13.985958 2025] [php:error] [pid 11872:tid 1880] [client ::1:60248] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\\xampp\\htdocs\\Test Register\\loging_register.php:17\nStack trace:\n#0 C:\\xampp\\htdocs\\Test Register\\loging_register.php(17): mysqli->query('INSERT INTO use...')\n#1 {main}\n  thrown in C:\\xampp\\htdocs\\Test Register\\loging_register.php on line 17, referer: http://localhost/Test%20Register/
+[Fri May 23 16:00:38.233350 2025] [php:warn] [pid 11872:tid 1884] [client ::1:60255] PHP Warning:  Undefined variable $password in C:\\xampp\\htdocs\\Test Register\\config.php on line 8, referer: http://localhost/Test%20Register/
+[Fri May 23 16:00:50.519201 2025] [php:warn] [pid 11872:tid 1880] [client ::1:60256] PHP Warning:  Undefined variable $password in C:\\xampp\\htdocs\\Test Register\\config.php on line 8, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:01:40.946460 2025] [php:error] [pid 11872:tid 1880] [client ::1:60267] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:02:31.549032 2025] [php:error] [pid 11872:tid 1884] [client ::1:60268] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:04:46.397773 2025] [php:error] [pid 11872:tid 1880] [client ::1:60280] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:06:16.912196 2025] [php:warn] [pid 11872:tid 1884] [client ::1:60284] PHP Warning:  Undefined variable $password in C:\\xampp\\htdocs\\Test Register\\config.php on line 8, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:07:17.227660 2025] [php:error] [pid 11872:tid 1880] [client ::1:60289] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:08:08.366791 2025] [php:error] [pid 11872:tid 1884] [client ::1:60290] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:08:53.914821 2025] [php:error] [pid 11872:tid 1880] [client ::1:60295] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:09:05.739679 2025] [php:error] [pid 11872:tid 1884] [client ::1:60298] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:10:43.786922 2025] [php:error] [pid 11872:tid 1880] [client ::1:60302] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:13:14.158596 2025] [php:error] [pid 11872:tid 1884] [client ::1:60314] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:14:02.576763 2025] [php:error] [pid 11872:tid 1884] [client ::1:60321] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:14:15.061109 2025] [php:error] [pid 11872:tid 1880] [client ::1:60322] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:20:33.146204 2025] [php:error] [pid 11872:tid 1884] [client ::1:60355] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:20:46.897974 2025] [php:error] [pid 11872:tid 1880] [client ::1:60356] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:20:58.260894 2025] [php:error] [pid 11872:tid 1884] [client ::1:60358] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:28:28.066297 2025] [php:error] [pid 11872:tid 1880] [client ::1:60372] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Fri May 23 16:28:34.101039 2025] [php:error] [pid 11872:tid 1884] [client ::1:60373] script 'C:/xampp/htdocs/Test Register/login_register.php' not found or unable to stat, referer: http://localhost/Test%20Register/index.php
+[Mon May 26 14:26:24.549793 2025] [php:warn] [pid 11872:tid 1880] [client ::1:57294] PHP Warning:  Undefined variable $password in C:\\xampp\\htdocs\\Test Register\\config.php on line 8, referer: http://localhost/Test%20Register/index.php
+[Mon May 26 14:27:53.164092 2025] [php:warn] [pid 11872:tid 1880] [client ::1:57321] PHP Warning:  Undefined variable $password in C:\\xampp\\htdocs\\Test Register\\config.php on line 8, referer: http://localhost/Test%20Register/index.php
+[Mon May 26 15:24:05.613645 2025] [ssl:warn] [pid 10456:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 15:24:05.652511 2025] [core:warn] [pid 10456:tid 440] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 26 15:24:05.656501 2025] [ssl:warn] [pid 10456:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 15:24:06.112282 2025] [mpm_winnt:notice] [pid 10456:tid 440] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon May 26 15:24:06.112282 2025] [mpm_winnt:notice] [pid 10456:tid 440] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon May 26 15:24:06.112282 2025] [core:notice] [pid 10456:tid 440] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon May 26 15:24:06.115274 2025] [mpm_winnt:notice] [pid 10456:tid 440] AH00418: Parent: Created child process 9368
+[Mon May 26 15:24:07.370921 2025] [ssl:warn] [pid 9368:tid 448] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 15:24:07.459682 2025] [ssl:warn] [pid 9368:tid 448] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 15:24:07.568389 2025] [mpm_winnt:notice] [pid 9368:tid 448] AH00354: Child: Starting 150 worker threads.
